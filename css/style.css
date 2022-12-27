@@ -146,53 +146,26 @@ header.sticky{
 	margin-bottom: 2rem;
 }
 .about-in h3{
-	font-size: 15px;
+	font-size: 10px;
 	font-weight: 500;
 }
-.about-text h2{
+.about-text h3{
 font-size: var(--h2-font);
 }
-.skills .row-2{
+.skills .skills-content .column{
+	width: calc(50% - 30px);
+}
+.skills .skills-content .right .bars{
+	margin-bottom: 15%;
+}
+.skills .skills-content .right .info{
 	display: flex;
-	flex-wrap: wrap;
-	gap: 1.5rem;
 	align-items: center;
-}
-.skills .row-2 .skills{
-	flex: 1 1 40rem;
-}
-.skills .row-2 .skills .progress{
-	padding: 1rem 0;
-}
-.skills .row-2 .skills .progress h3{
-	display: flex; 
 	justify-content: space-between;
-	padding: .7rem 0%;
-	font-size: 1.7rem;
-	color:#f2e7e7;
-	font-weight: 400;
 }
-.skills .row-2 .skills .progress .bar{
-	width: 100%;
-	background: #ccc;
-	overflow: hidden;
-	height: 1rem;
-	border-radius: 50rem;
-}
-.skills .row-2 .skills .progress .bar span{
-	display: block;
-	height: 100%;
-	background: var(--main-color);
-	border-radius: 50rem;
-}
-.skills .row-2 .skills .progress:nth-child(1) .bar span{
-	width: 50%;
-}
-.skills .row-2 .skills .progress:nth-child(2) .bar span{
-	width: 40%;
-}
-.skills .row-2 .skills .progress:nth-child(3) .bar span{
-	width: 30%;
+.skills .skills-content .right span{
+	font-weight: 500;
+	font-size: 18px;
 }
 .about-img img{
 	height: auto;
